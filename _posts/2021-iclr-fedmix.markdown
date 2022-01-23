@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "FedMix: Approximation of Mixup under Mean Augmented Federated Learning"
-date:   
+date: 2020-10-03
 categories: research
 authors: "Tehrim Yoon, <strong>Sumin Shin</strong>, Sung Ju Hwang, Eunho Yang"
 venue: "ICLR 2021"
