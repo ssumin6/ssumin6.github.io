@@ -54,7 +54,7 @@ url: "https://leonidk.com" # the base hostname & protocol for your site
 # !! You don't need to change any of the configuration flags below !!
 #
 
-#permalink: /:title/
+# permalink: /:title/
 permalink: /
 
 

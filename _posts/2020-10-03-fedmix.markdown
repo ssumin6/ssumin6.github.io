@@ -7,6 +7,6 @@ author: Sumin Shin
 authors: "Tehrim Yoon, <strong>Sumin Shin</strong>, Sung Ju Hwang, Eunho Yang"
 venue: "ICLR 2021"
 paper: https://openreview.net/forum?id=Ogga20D2HO-
-subtitle: "FedM"
+subtitle: "FedMix"
 ---
 (Under construction)
