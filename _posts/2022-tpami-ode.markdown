@@ -5,6 +5,6 @@ date:
 categories: research
 authors: "Tehrim Yoon, <strong>Sumin Shin</strong>, Eunho Yang"
 venue: ""
-paper: 
+paper:
 ---
 (Under construction)
