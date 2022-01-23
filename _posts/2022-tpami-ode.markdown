@@ -3,7 +3,7 @@ layout: post
 title:  "Learning Polymorphic Neural ODEs with Time-evolving Mixture"
 date:   
 author: Sumin Shin
-categories: research
+categories: 'sd'
 authors: "Tehrim Yoon, <strong>Sumin Shin</strong>, Eunho Yang"
 venue: "TPAMI"
 ---

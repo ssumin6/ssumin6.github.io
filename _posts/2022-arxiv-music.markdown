@@ -2,7 +2,7 @@
 layout: post
 title:  "Music2Video: Automatic Generation of Music Video with fusion of audio and text"
 date:   2022-01-11 00:00:00 +00:00
-categories: research
+categories: 'sd'
 author: Sumin Shin
 authors: "Joel Jang, <strong>Sumin Shin</strong>, Yoonjeon Kim"
 venue: "arxiv"
