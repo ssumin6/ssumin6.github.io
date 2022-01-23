@@ -65,9 +65,6 @@
               {{ post.date | date: "%Y-%m-%d" }}
 
               <br>
-              {% if post.website %}
-              <a href="{{post.website}}">website</a> /
-              {% endif %}
               <p></p>
               {{ post.excerpt }}
             </td>
@@ -102,7 +99,7 @@
               {{post.authors}}
 
               <br>
-              <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
+              <!-- <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }} -->
               <br>
               {% if post.paper %}
               <a href="{{post.paper}}">arxiv</a> /
