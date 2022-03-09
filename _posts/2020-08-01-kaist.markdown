@@ -8,4 +8,5 @@ end:  2020-08-11 00:00:00 +00:00
 categories: Education
 ---
 
-GPA : 
+Minor in Electrical Engineering
+- GPA : / 4.3
