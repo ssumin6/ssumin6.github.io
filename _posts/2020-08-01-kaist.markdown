@@ -1,6 +1,11 @@
 ---
 layout: post
 title:  KAIST 
-date:   2022-01-11 00:00:00 +00:00
+degree: Bachelor's Degree
+major: School of Computing
+start: 2016-03-01 00:00:00 +00:00
+end:  2020-08-11 00:00:00 +00:00
 categories: Education
 ---
+
+GPA : 

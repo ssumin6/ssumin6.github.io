@@ -7,4 +7,4 @@ authors: "Tehrim Yoon, <strong>Sumin Shin</strong>, Sung Ju Hwang, Eunho Yang"
 venue: "ICLR"
 paper: https://openreview.net/forum?id=Ogga20D2HO-
 ---
-(Under construction)
+We introduce a new federated framework, Mean Augmented Federated Learning (MAFL), and propose an efficient algorithm, Federated Mixup (FedMix), which shows good performance on difficult non-iid situations.
