@@ -6,7 +6,7 @@ major: School of Computing
 start: 2016-03-01 00:00:00 +00:00
 end:  2020-08-11 00:00:00 +00:00
 categories: Education
-image: /images/KAIST_logo.png
+image: "/images/KAIST_logo.png"
 ---
 
 - Minor in Electrical Engineering
