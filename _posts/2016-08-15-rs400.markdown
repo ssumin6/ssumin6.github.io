@@ -2,7 +2,7 @@
 layout: post
 title:  "Netmarble Internship"
 date:   2018-08-15 21:21:53 +00:00
-image: /images/rs400.jpg
+image: /images/netmarble-server.png
 categories: Netmarble
 author: "Sumin Shin"
 code: https://github.com/ssumin6/fastspeech
