@@ -7,6 +7,6 @@ categories: Netmarble
 author: "Sumin Shin"
 code: https://github.com/ssumin6/fastspeech
 ---
-A Real-time Korean text-to-speech website
-Implemented in Pytorch, based on FastSpeech paper
-My responsibilities included speech generation modelling and training, optimizing. 
+- A Real-time Korean text-to-speech website
+- Implemented in Pytorch, based on FastSpeech paper
+- My responsibilities included speech generation modelling and training, optimizing. 
