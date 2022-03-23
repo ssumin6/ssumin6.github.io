@@ -8,4 +8,4 @@ categories: Education
 image: /images/KAIST_logo.png
 ---
 - Machine learning and intelligence lab (Prof. Eunho Yang)
-- GPA : 3.92/4.3
+- GPA : 3.92 / 4.3
