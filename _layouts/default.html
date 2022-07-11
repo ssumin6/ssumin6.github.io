@@ -26,13 +26,13 @@
               <h1>
                 Sumin Shin
               </h1>
-              <p>I am currently pursuing MS degree at the <a href="mli.kaist.ac.kr">Artificial Intelligence</a> at <a href="https://www.kaist.ac.kr/">Korea Advance Institute of Technology and Science</a>, where I work on Computer Vision and Multi-modal Learning. My advisor is Eunho Yang.
+              <p>I am currently pursuing MS degree at the <a href="https://mli.kaist.ac.kr">Artificial Intelligence</a> at <a href="https://www.kaist.ac.kr/">Korea Advance Institute of Technology and Science</a>, where I work on Computer Vision and Multi-modal Learning. My advisor is Eunho Yang.
               </p>
               <p style="text-align:center">
                 <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp;
                 <a href="https://github.com/ssumin6">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://www.linkedin.com/in/수민-신-011a90162/"> LinkedIn </a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=N4W-jgIAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
+                <a href="https://scholar.google.com/citations?user=FEmnQTwAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
                 <a href="https://drive.google.com/file/d/1w4RK_k4nYbeG4w84Bp0ZVCTWr9TCKN6O/view?usp=sharing"> Resume
               </p>
             </td>
@@ -99,19 +99,19 @@
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              [<a href="{{post.paper}}">paper</a>] 
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              [<a href="{{post.video}}">video</a>] 
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              [<a href="{{post.code}}">code</a>] 
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              [<a href="{{post.poster}}">poster</a>]
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              [<a href="{{post.slides}}">slides</a>]
               {% endif %}
               <p></p>
               {{ post.excerpt }}
