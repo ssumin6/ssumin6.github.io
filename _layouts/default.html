@@ -64,7 +64,7 @@
               <br>
               <em>{{post.degree}}</em>
               <br>
-              {{ post.start | date: "%Y-%m" }} - {{post.end | date: "%Y-%m"}}
+              {{ post.start | date: "%Y-%m" }} ~ {{post.end | date: "%Y-%m"}}
               <br> 
               <p></p>
               {{ post.excerpt }}
@@ -148,7 +148,7 @@
               <br>
               <em>{{post.categories}} {{post.course}}</em>
               <br>
-              {{ post.date | date: "%Y-%m-%d" }} - {{ post.end | date: "%Y-%m-%d" }}
+              {{ post.date | date: "%Y-%m-%d" }} ~ {{ post.end | date: "%Y-%m-%d" }}
 
               <br>
               {% if post.website %}
