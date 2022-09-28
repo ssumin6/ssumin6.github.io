@@ -26,14 +26,14 @@
               <h1>
                 Sumin Shin
               </h1>
-              <p>I am currently pursuing MS degree at the <a href="mli.kaist.ac.kr">Artificial Intelligence</a> at <a href="https://www.kaist.ac.kr/">Korea Advance Institute of Technology and Science</a>, where I work on Computer Vision and Multi-modal Learning. My advisor is Eunho Yang.
+              <p>I am currently pursuing MS degree at the <a href="https://mli.kaist.ac.kr">Artificial Intelligence</a> at <a href="https://www.kaist.ac.kr/">Korea Advance Institute of Technology and Science</a>, where I work on Computer Vision and Multi-modal Learning. My advisor is Eunho Yang.
               </p>
               <p style="text-align:center">
                 <a target="_blank" href="https://mailhide.io/e/B8TyS"> Email</a> &nbsp;/&nbsp;
                 <a href="https://github.com/ssumin6">GitHub</a> &nbsp;/&nbsp;
                 <a href="https://www.linkedin.com/in/수민-신-011a90162/"> LinkedIn </a> &nbsp;/&nbsp;
-                <a href="https://scholar.google.com/citations?user=N4W-jgIAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
                 <a href="https://drive.google.com/file/d/1NA1eORKIxuM--K4be2EFlbekFPzl859I/view?usp=sharing"> Resume
+                <a href="https://scholar.google.com/citations?user=FEmnQTwAAAAJ">Google Scholar</a> &nbsp;/&nbsp;
               </p>
             </td>
             <td style="padding:2.5%;width:40%;max-width:40%">
@@ -64,7 +64,7 @@
               <br>
               <em>{{post.degree}}</em>
               <br>
-              {{ post.start | date: "%Y-%m" }} - {{post.end | date: "%Y-%m"}}
+              {{ post.start | date: "%Y-%m" }} ~ {{post.end | date: "%Y-%m"}}
               <br> 
               <p></p>
               {{ post.excerpt }}
@@ -91,7 +91,7 @@
           {% for cat in post.categories %}
           {% if cat == 'research' %}
           <tr>
-            <td style="padding:1%;width:90%;vertical-align:middle">
+            <td style="padding:1%;width:75%;vertical-align:middle">
               <h3>{{post.title}}</h3>
               <br>
               {{post.authors}}
@@ -99,19 +99,19 @@
               <em>{{post.venue}}</em>, {{ post.date | date: "%Y" }}
               <br>
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              [<a href="{{post.paper}}">paper</a>] 
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              [<a href="{{post.video}}">video</a>] 
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              [<a href="{{post.code}}">code</a>] 
               {% endif %}
               {% if post.poster %}
-              <a href="{{post.poster}}">poster</a> /
+              [<a href="{{post.poster}}">poster</a>]
               {% endif %}
               {% if post.slides %}
-              <a href="{{post.slides}}">slides</a> /
+              [<a href="{{post.slides}}">slides</a>]
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -148,32 +148,32 @@
               <br>
               <em>{{post.categories}} {{post.course}}</em>
               <br>
-              {{ post.date | date: "%Y-%m-%d" }}
+              {{ post.date | date: "%Y-%m-%d" }} ~ {{ post.end | date: "%Y-%m-%d" }}
 
               <br>
               {% if post.website %}
-              <a href="{{post.website}}">website</a> /
+              [<a href="{{post.website}}">website</a>]
               {% endif %}
               {% if post.paper %}
-              <a href="{{post.paper}}">paper</a> /
+              [<a href="{{post.paper}}">paper</a>]
               {% endif %}
               {% if post.patent %}
-              <a href="{{post.patent}}">patent</a> /
+              [<a href="{{post.patent}}">patent</a>]
               {% endif %}
               {% if post.patent2 %}
-              <a href="{{post.patent2}}">patent #2</a> /
+              [<a href="{{post.patent2}}">patent #2</a>]
               {% endif %}
               {% if post.patent3 %}
-              <a href="{{post.patent3}}">patent #3</a> /
+              [<a href="{{post.patent3}}">patent #3</a>]
               {% endif %}
               {% if post.video %}
-              <a href="{{post.video}}">video</a> /
+              [<a href="{{post.video}}">video</a>]
               {% endif %}
               {% if post.video2 %}
-              <a href="{{post.video2}}">video #2</a> /
+              [<a href="{{post.video2}}">video #2</a>]
               {% endif %}
               {% if post.code %}
-              <a href="{{post.code}}">code</a> /
+              [<a href="{{post.code}}">code</a>]
               {% endif %}
               <p></p>
               {{ post.excerpt }}
@@ -187,6 +187,9 @@
           <tr>
             <td style="padding:2.5%;width:100%;vertical-align:middle">
               <h2>Honors&Awards</h2>
+              <p>
+                NeurIPS Reviewer, <em>2022</em>
+              </p>
               <p>
                 KAIST E5 Awards, <em>2019 Spring</em>
               </p>
